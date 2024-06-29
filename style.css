@@ -85,15 +85,14 @@ p{
   display: flex;
   position: absolute;
   top: 30%;
-  left: 5%;
+  left: 7%;
   padding: 20px 80px 20px 80px;
 }
 .input_field > div {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 0 10px 0 30px;
-  border-right: 6px solid gray;
+  gap: 12px;
+  padding: 0 10px 0 10px;
   height: 112px;  
 }
 .input_field > div > input{
@@ -106,12 +105,11 @@ p{
 }
 .from{
   background-color: white;
-  padding: 35px;
+  padding: 5px;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
-  margin-left: -5px;
-  border: none;
-  font-size: 20px;
+  font-size: 35px;
+  border-right: 7px solid gray;
 }
 .To{
   background-color:white;
@@ -119,6 +117,7 @@ p{
   margin-left: -5px;
   border: none;
   font-size: 20px;
+  border-right: 7px solid gray;
 }
 .date{
   background-color: white;
@@ -133,7 +132,7 @@ p{
     height: 112px;
     border-radius: 0 35px 35px 0;
     border: none;
-    margin-left: -5px;
+    margin-left: -1rem;
     background-color: #d84e55;
   }
 
@@ -175,8 +174,8 @@ button{
       margin: auto;
       background-color: white;
       position: absolute;
-      top: 25rem;
-      left: 2rem;
+      top: 30rem;
+      left: 2.5rem;
       border-radius: 30px;
       box-shadow: 1px 1px 10px grey;
 }
@@ -187,19 +186,17 @@ button{
 }
 .offer-list{
   display: flex;
-  /* height: 18rem; */
-  margin-left: 1rem;
+  height: 18rem;
+  margin-left: 2rem;
   margin-top: 25px;
   flex-shrink: 0;
   overflow-y: hidden;
   overflow-x: scroll;
 }
 .div-item{
-  /* background-color: #ffc107; */
-  /* height: 15rem; */
   display: flex;
-  margin-left: 20px;
-  margin-top: 2rem;
+  margin-left: 2px;
+  margin-top: 1rem;
   border-radius: 30px;
   padding: 50px;
   min-width: 400px;
