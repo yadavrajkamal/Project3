@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redbus clone</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/rdc-redbus-logo.svg">
   </head>
   <body>
     <div class="main">
@@ -15,25 +16,25 @@
       <ul class="middle_navbar_section">
         <li class="rdc-redbus-logo">
           <img src="assets/rdc-redbus-logo.svg" alt="">
-          <p>Book Ticket</p>
+          <div>Bus Ticket</div>
         </li>
         <li>
           <img src="assets/ryde_vertical.svg">
-          <p>Cab Rental</p>
+          <div>Cab Rental</div>
         </li>
         <li>
           <img src="assets/rail_vertical.svg" alt="">
-          <p>Train Ticket</p>
+          <div>Train Ticket</div>
         </li>
      </ul>
       <ul class="right_navbar_section">
         <li>
           <img src="assets/headphones-support.svg" alt="">
-          <p>Help</p>
+          <div>Help</div>
         </li>
         <li>
           <img src="assets/account.png" alt="">
-          <p>Account</p>
+          <div>Account</div>
         </li>
       </ul>
     </div>
@@ -57,7 +58,6 @@
             <input type="day" placeholder="18-06-2024">
           </div>
          <div class="search">
-          <label></label>
           <button>Search Buses</button>
          </div>
          </div>
@@ -129,21 +129,52 @@
       </div>
     </section>
     </div>
+    <!-- Rental section -->
     <div class="bus_rental_section">
       <div class="left_section">
         <div class="left_header">
           <span>NOW, <b>GET MORE THAN <br>JUST BUS </b>TICKETS WITH <br>REDBUS!</span>
         </div>
-        <div class="left_footer">
-          <div class="bus_rental">
-            <img src="assets/ryde_vertical.svg" alt="ryde">
-            <h4>Cab/Bus Rental</h4>
-          </div>
-          <div class="train_rental">
-            <img src="assets/rail_vertical.svg" alt="ryde">
-            <h4>Train Ticket</h4>
-          </div>
+        <div class="cab_train_ticket">
+          <ul class="cb_train_rental">
+            <li class="cb_rental">
+              <img src="assets/ryde_vertical.svg" alt="logo">
+              <div class="logo_name">Car/Bus Rental</div>
+            </li>
+            <div class="divider"></div>
+            <li>
+              <img src="assets/rail_vertical.svg" alt="logo">
+              <div class="logo_name">Train tickets</div>
+            </li>
+          </ul>
         </div>
+         <div class="Rental_title">
+         Rent Cabs, Tempo Travellers & Buses with best drivers
+         </div>
+         <div class="rental_items">
+          <ul>
+            <li>
+              <img src="assets/ryde_car.svg" alt="">
+              <h2>Outstation</h2>
+            </li>
+            <li>
+              <img src="assets/ryde_car_hourly.svg" alt="logo">
+              <h2>Hourly Rental</h2>
+            </li>
+            <li>
+              <img src="assets/ryde_airport_transport.svg" alt="logo">
+              <h2>Airport Transfers</h2>
+            </li>
+          </ul>
+         </div>
+         <div class="btn">
+         <button>Book Cab/Bus Renta </button>
+         <img src="assets/right arrow.png" alt="arrow">
+        </div>
+    </div>
+    <div class="right_section">
+      <div class="bg_image">
+        <img src="assets/rydePop.svg" alt="">
       </div>
     </div>
   </div>

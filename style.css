@@ -34,6 +34,9 @@ flex-direction: column;
   max-width: 1200px;
   margin-left: 80px;
 }
+.navbar > .container > ul > li:hover{
+  background-color: gainsboro;
+}
 .middle_navbar_section{
   display: flex;
   list-style-type: none;
@@ -51,13 +54,17 @@ flex-direction: column;
   width: 2rem;
   margin: auto;
 }
+.middle_navbar_section > li > div{
+  width: 5rem;
+  font-size: 15px;
+}
 .right_navbar_section{
   margin-left: auto;
   list-style: none;
   display: flex;
   gap: 30px;
   font-size: small;
-  margin-left: 400px;
+  margin-left: 30rem;
 }
 .right_navbar_section > li{
   padding: 5px;
@@ -74,6 +81,7 @@ p{
   font-size: 20px;
   color: black;
 }
+/* Booking site input section */
 .main_heading{
   position: absolute;
   top: 20%;
@@ -85,7 +93,7 @@ p{
   display: flex;
   position: absolute;
   top: 30%;
-  left: 7%;
+  left: 10%;
   padding: 20px 80px 20px 80px;
 }
 .input_field > div {
@@ -105,7 +113,6 @@ p{
 }
 .from{
   background-color: white;
-  padding: 5px;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   font-size: 35px;
@@ -128,7 +135,7 @@ p{
   
 }
 .search{
-    width: 200px;
+    width: 250px;
     height: 112px;
     border-radius: 0 35px 35px 0;
     border: none;
@@ -137,7 +144,8 @@ p{
   }
 
 button{
-  font-size: 20px;
+  font-size: 25px;
+  margin-left: 25px;
   color: white;
   background: none;
   border: none;
@@ -146,36 +154,16 @@ button{
 .input_field img {
   width: 30px;
 }
-/* Responsive styles */
-@media (max-width: 768px) {
-  .navbar-nav {
-    display: none; /* Hide navbar items by default on smaller screens */
-    flex-direction: column;
-    background-color: #d32f2f; /* RedBus red */
-    position: absolute;
-    top: 60px;
-    left: 0;
-    right: 0;
-    padding: 20px;
-  }
-  
-  .navbar-nav.active {
-    display: flex; /* Show navbar items when active */
-  }
-  
-  .nav-item {
-    margin: 10px 0;
-  }
-}
+/* offer list */
 .trending_offer{
   background-color: #d84e55;
       height: 25rem;
-      width: 95%;
+      width: 90%;
       margin: auto;
       background-color: white;
       position: absolute;
       top: 30rem;
-      left: 2.5rem;
+      left: 5rem;
       border-radius: 30px;
       box-shadow: 1px 1px 10px grey;
 }
@@ -187,10 +175,7 @@ button{
 .offer-list{
   display: flex;
   height: 18rem;
-  margin-left: 2rem;
-  margin-top: 25px;
-  flex-shrink: 0;
-  overflow-y: hidden;
+  margin: 1rem 2rem 0 2rem;
   overflow-x: scroll;
 }
 .div-item{
@@ -247,37 +232,79 @@ p{
 color: white;
 font-size: 0.9rem;
 }
+/* Bus Rental section */
+
+
 .bus_rental_section{
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   margin-top: 25%;
   margin-left: 5%;
 }
+.left_section{
+  width: 50%;
+}
 .bus_rental_section > .left_section > .left_header{
      font-size: 40px; 
 }
-.left_footer{
+.cab_train_ticket{
   display: flex;
+  margin: 30px 0;
+  gap: 20px;
+  width: fit-content;
+  align-items: center; 
 }
-.left_footer .bus_rental{
-display: flex;
-margin-top: 10%;
+.cab_train_ticket{
+  border-bottom: 2px solid gray;
 }
-.left_footer .bus_rental > h4{
-  display: flex;
-  padding: 1rem;
-  color: #d32f2f;
-}
-.left_footer .train_rental{
-  display: flex;
-  margin-top: 60px;
-  margin-left: 20px;
-  }
-  .left_footer .train_rental > h4{
+.cb_train_rental{
     display: flex;
-    padding: 1rem;
-    color: #d32f2f;
-  }
-  .left_footer .train_rental > img{
-    width: 60px;
-  }
+    align-items: center;
+    cursor: pointer;
+    padding: 20px;
+    gap: 20px;
+    border-bottom: 3px solid red;
+}
+.cab_train_ticket > ul >li{
+  display: flex;
+  padding-left: 1rem;
+}
+.logo_name{
+  margin-left: 1rem;
+}
+.divider{
+  height: 20px;
+  width: 1px;
+  background-color: gray;
+  margin-left: 2rem;
+}
+.rental_items{
+  padding-top: 30px;
+}
+.rental_items > ul >li{
+  display: flex;
+  padding: 10px;
+}
+.rental_items > ul >li >h2{
+  margin-left: 25px;
+  font-size: 15px;
+}
+.btn{
+  margin-top: 20px;
+  display: flex;
+  background-color: #d84e55;
+  padding: 10px;
+  font-size: 20px;
+  width: 350px;
+  border-radius: 20px;
+}
+.btn >img{
+  margin-left: 10px;
+}
+.bus_rental_section > .right_section{
+  background-image: url(assets/aboutUsImg.svg);
+  background-repeat: no-repeat;
+}
+.right_section > img{
+  
+}
