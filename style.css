@@ -290,7 +290,7 @@ font-size: 0.9rem;
   font-size: 15px;
 }
 .btn{
-  margin-top: 20px;
+  margin-top: 100px;
   display: flex;
   background-color: #d84e55;
   padding: 10px;
@@ -301,10 +301,48 @@ font-size: 0.9rem;
 .btn >img{
   margin-left: 10px;
 }
-.bus_rental_section > .right_section{
-  background-image: url(assets/aboutUsImg.svg);
+.right_section{
+  background: url(assets/aboutUsImg.svg);
+  background-position: right;
   background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
 }
-.right_section > img{
-  
+/* ---------------------------------APP SECTION CSS------------------------------------ */
+.app_section_main{
+padding: 13rem;
+margin: 10rem 4rem 0 4rem;
+background-image: url(assets/appInstallbg.svg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right center;
+color: white;
+border-radius: 50px;
+position: relative;
+}
+.app_section{
+  position: absolute;
+  bottom: 20rem;
+  left: 3rem;
+  font-size: 35px;
+}
+.app_section > .app_card{
+  border-radius: 20px;
+ height: 280px;
+ width: 350px;
+ background-color: white;
+ position: absolute;
+ top: 4rem;
+
+}
+.heading_main{
+  padding-top: 3rem;
+}
+.QA , .sl_trac{
+  font-size: 20px;
+  display: flex;
+  padding: 0.5rem;
+  margin: 0 0 0 2rem;
+  color: black;
 }
