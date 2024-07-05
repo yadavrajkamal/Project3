@@ -8,13 +8,9 @@
 body {
   font-family: Arial, sans-serif;
 }
-.main{
-margin: auto;
-display: flex;
-flex-direction: column;
-}
 
-/* Navbar styles */
+
+/*--------------------------------------Navbar styles--------------------------------*/
 .navbar {
   background-color:white; /* RedBus red */
   color: black;
@@ -81,7 +77,7 @@ p{
   font-size: 20px;
   color: black;
 }
-/* Booking site input section */
+/*---------------------------------Booking site input section----------------------------*/
 .main_heading{
   position: absolute;
   top: 20%;
@@ -141,20 +137,22 @@ p{
     border: none;
     margin-left: -1rem;
     background-color: #d84e55;
+    cursor: pointer;
   }
 
-button{
+  .search >button{
   font-size: 25px;
   margin-left: 25px;
   color: white;
   background: none;
   border: none;
   font-weight: 700;
+  cursor: pointer;
 }
 .input_field img {
   width: 30px;
 }
-/* offer list */
+/*----------------------offer list---------------------------------------*/
 .trending_offer{
   background-color: #d84e55;
       height: 25rem;
@@ -232,7 +230,7 @@ p{
 color: white;
 font-size: 0.9rem;
 }
-/* Bus Rental section */
+/*----------------------------------------Bus Rental section-------------------------*/
 
 
 .bus_rental_section{
@@ -294,9 +292,18 @@ font-size: 0.9rem;
   display: flex;
   background-color: #d84e55;
   padding: 10px;
-  font-size: 20px;
-  width: 350px;
+  width: 250px;
   border-radius: 20px;
+}
+.btn > button{
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  background-color: #d84e55;
+  border: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 900;
 }
 .btn >img{
   margin-left: 10px;
@@ -322,8 +329,9 @@ border-radius: 50px;
 position: relative;
 }
 .app_section{
+  display: flex;
   position: absolute;
-  bottom: 20rem;
+  bottom: 21rem;
   left: 3rem;
   font-size: 35px;
 }
@@ -345,4 +353,252 @@ position: relative;
   padding: 0.5rem;
   margin: 0 0 0 2rem;
   color: black;
+}
+.rate_app{
+  color: black;
+  font-size: 10px;
+  margin: 1.5rem 0 0 3rem;
+  
+}
+.rate{
+  display: flex;
+ }
+ .rate_app > span{
+  font-size: 15px;
+ }
+ .rate_app > h1{
+  margin-top: 0.8rem;
+ }
+.rate_app .rate > img{
+  width: 20px;
+  padding: 0.1rem;
+  margin-left: 0.3rem;
+  margin-bottom: 1rem;
+}
+.rate_hr{
+  width: 1px;
+  height: 80px;
+  position: absolute;
+  top: 9.8rem;
+  left: 11rem;
+}
+.rate_details{
+  display: flex;
+}
+.download_section{
+  font-size: 8px;
+  position: absolute;
+  left: 25rem;
+  top: 4rem;
+  width: 100%;
+}
+.input_dnfield{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 70px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 20px 0;
+  border: none;
+}
+.country_code{
+  color: black;
+  font-size: 15px;
+  margin-left: 1rem;
+}
+.input_dnfield > input{
+  font-size: 15px;
+  padding: 0.2rem;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  outline: none;
+}
+.link_btn > button {
+  background-color: black;
+  color: white;
+  padding: 1.7rem;
+  width: 120px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.qr_app_section{
+  display: flex;
+}
+.qr_scan ,.app_link {
+  margin-left: 2rem;
+}
+.qr_scan > .qr_heading {
+  font-size: 20px;
+  font-weight: 600;
+}
+.qr_scan > img{
+  width: 100px;
+}
+.app_link > img{
+  padding: 0.2rem;
+}
+.app_link > .app_heading{
+  margin-left: 0.5rem;
+  font-weight: 900;
+}
+
+/*--------------------------------------fifth section CSS------------------------------- */
+.fifth_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+}
+.primo_img_list{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+.primo_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 350px;
+  padding: 25px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, rgb(38, 72, 153), rgb(125, 70, 134));
+}
+.primo_img > .primo_content{
+  padding: 1rem;
+  color: white;
+}
+.primo_img > .primo_content > span{
+  font-size: 12px;
+}
+/*--------------------------------------sixth section CSS------------------------------- */
+.travels_heading{
+  padding: 5rem 0 0 6rem;
+  font-size: 25px
+}
+.travels_btn{
+  padding: 2rem 0 0 6rem;
+  display: flex;
+  width: 95%;
+  justify-content:space-between;
+  font-size: 30px;
+}
+.travels_btn > button{
+  padding: 0.8rem;
+  width: 100px;
+  border-radius: 10px;
+}
+.travels_btn > button:hover{
+  box-shadow:rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.travels_details > .travels_img{
+display: flex;
+justify-content: center;
+padding-top: 2rem;
+gap: 100px;
+}
+.travels_details > .travels_img .APSRTC >h1{
+  font-size: 15px;
+  text-align: center;
+  padding-top: 0.3rem;
+}
+.travels_operator{
+  padding: 4rem 0 0 6rem;
+  display: flex;
+  width: 95%;
+  justify-content:space-between;
+  font-size: 30px;
+}
+.travels_operator > button{
+  padding: 0.8rem;
+  width: 100px;
+  border-radius: 10px;
+}
+.travels_operator > button:hover{
+  box-shadow:rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.operators{
+  width: 10px;
+  display: inline;
+  font-size: 16px;
+}
+.operators > ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding:5rem 0 0 6rem;
+  width: 95%;
+  list-style: none;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+.operators > ul > li{
+  height: 40px;
+  padding: 10px;
+  cursor: pointer;
+}
+.operators > ul > li:hover{
+  background-color: gainsboro;
+  border-radius: 20px;
+}
+
+/*--------------------------------------seventh section CSS------------------------------- */
+.question_section{
+  margin-left: 6rem;
+  margin-top: 5rem;
+  font-size: 20px;
+  font-family: "Rajdhani", sans-serif;
+}
+.question_section > .question_heading > h1{
+  font-family: "Abel", sans-serif;
+  word-spacing: 15px;
+}
+.question_section > ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-top: 2rem;
+}
+.specialQ_list{
+  font-weight: 700;
+  padding-left: 7rem;
+  padding-top: 1rem;
+}
+.question_section > ul > .special_list{
+  border-bottom: 2px solid #d84e55;
+  color: #d84e55;
+}
+.question_section > ul > .q_list:hover{
+  border-bottom: 2px solid black;
+}
+.specialQ_list > .first_list , .second_list , .third_list{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+.first_list:hover{
+background-color: white;
+border-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 20px -1px;  
+}
+
+/*--------------------------------------eighth section css------------------------------------------*/
+.pre_heading{
+  padding: 6rem 0 2rem 6rem;
+  font-size: 25px;
+  font-family: "Prompt", sans-serif;
+}
+.county_img{
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  margin-left: 3rem;
+  width: 95%;
 }
