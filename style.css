@@ -563,11 +563,13 @@ gap: 100px;
   list-style: none;
   gap: 20px;
   padding-top: 2rem;
+  cursor: pointer;
 }
 .specialQ_list{
   font-weight: 700;
   padding-left: 7rem;
   padding-top: 1rem;
+  cursor: pointer;
 }
 .question_section > ul > .special_list{
   border-bottom: 2px solid #d84e55;
@@ -601,4 +603,66 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 20px -1px;
   gap: 50px;
   margin-left: 3rem;
   width: 95%;
+  margin-top: 5rem;
+  cursor: pointer;
 }
+.country_details > .county_img > .APSRTC > h1{
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+.up_arrow{
+  padding: 5rem;
+  display: flex;
+  justify-content: right;
+}
+.up_arrow > a > img{
+  border: 2px solid black;
+  padding: 0.6rem;
+  border-radius: 15px;
+  height: 120px;
+  width: 60px;
+  cursor: pointer;
+}
+.up_arrow > a > img:hover{
+  border: 2px solid red;
+}
+
+/*--------------------------------------ninth section css------------------------------------------*/
+.ninth_section{
+  background-color: #f7f7f7;
+}
+.bus_list{
+  display: flex;
+  margin-left: 9rem;
+  padding: 1rem;
+}
+.bus_list > ul{
+  margin: 1rem;
+  padding-left: 2rem;
+}
+
+.bus_list > ul > li{
+  color: #3e3e52;
+  list-style: none;
+  padding-top: 20px;
+}
+.top_heading{
+  font-weight: 900;
+}
+hr{
+  width: 80%;
+  margin-left: 9rem;
+}
+.last_item{
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  margin-left: 6rem;
+  width: 85%;
+}
+.second_item > ul{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+} 
