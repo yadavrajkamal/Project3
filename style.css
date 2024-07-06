@@ -77,7 +77,7 @@ p{
   font-size: 20px;
   color: black;
 }
-/*---------------------------------Booking site input section----------------------------*/
+/*---------------------------------first section css----------------------------*/
 .main_heading{
   position: absolute;
   top: 20%;
@@ -152,7 +152,7 @@ p{
 .input_field img {
   width: 30px;
 }
-/*----------------------offer list---------------------------------------*/
+/*----------------------second section css---------------------------------------*/
 .trending_offer{
   background-color: #d84e55;
       height: 25rem;
@@ -230,11 +230,10 @@ p{
 color: white;
 font-size: 0.9rem;
 }
-/*----------------------------------------Bus Rental section-------------------------*/
+/*----------------------------------------third section css-------------------------*/
 
 
 .bus_rental_section{
-  /* background-color: aqua; */
   display: flex;
   margin-top: 25%;
   margin-left: 5%;
@@ -251,9 +250,7 @@ font-size: 0.9rem;
   gap: 20px;
   width: fit-content;
   align-items: center; 
-}
-.cab_train_ticket{
-  border-bottom: 2px solid gray;
+  border-bottom: 1px solid gray;
 }
 .cb_train_rental{
     display: flex;
@@ -261,14 +258,19 @@ font-size: 0.9rem;
     cursor: pointer;
     padding: 20px;
     gap: 20px;
-    border-bottom: 3px solid red;
+    border-bottom: 2px solid #d84e55;
 }
 .cab_train_ticket > ul >li{
   display: flex;
   padding-left: 1rem;
 }
-.logo_name{
+.logo_name1{
+  color: #d84e55;
+  font-weight: 600;
+}
+.logo_name1 , .logo_name2{
   margin-left: 1rem;
+  font-size: 20px;
 }
 .divider{
   height: 20px;
@@ -316,7 +318,7 @@ font-size: 0.9rem;
   display: flex;
   align-items: center;
 }
-/* ---------------------------------APP SECTION CSS------------------------------------ */
+/* ---------------------------------forth section CSS------------------------------------ */
 .app_section_main{
 padding: 13rem;
 margin: 10rem 4rem 0 4rem;
