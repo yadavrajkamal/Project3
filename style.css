@@ -172,7 +172,6 @@ p{
 }
 .offer-list{
   display: flex;
-  height: 18rem;
   margin: 1rem 2rem 0 2rem;
   overflow-x: scroll;
 }
